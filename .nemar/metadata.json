@@ -1,0 +1,82 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jonathan R. Brennan": {
+      "orcid": "0000-0002-3639-350X"
+    },
+    "John T. Hale": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1371/journal.pone.0207741",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000180",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000180",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Brennan2019: EEG during Alice in Wonderland Listening",
+  "license": "CC BY 4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "4.1 GB (91 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 33 subjects during passive listening to the first chapter of 'Alice's Adventures in Wonderland,' a naturalistic auditory comprehension paradigm designed to investigate hierarchical linguistic structure processing. The study recorded 61 EEG channels plus vertical eye movements at 500 Hz sampling rate, capturing neural responses to continuous speech over approximately 25 minutes per subject. This resource enables investigation of how the brain processes complex linguistic hierarchies during naturalistic listening.",
+  "methods_description": "EEG was recorded from 33 subjects using a 61-channel easycap-M10 montage plus 1 VEOG and 1 audio channel at 500 Hz sampling rate. Online bandpass filtering was applied at 0.1-200 Hz, with offline average reference. Subjects passively listened to the complete first chapter of 'Alice's Adventures in Wonderland' (~25 minutes).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "naturalistic listening"
+    },
+    {
+      "term": "linguistic processing"
+    },
+    {
+      "term": "hierarchical structure"
+    },
+    {
+      "term": "auditory comprehension"
+    },
+    {
+      "term": "Speech Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013067"
+    }
+  ],
+  "source_hash": "c185498b49c83a1b1475f5f71a5ab0c069b5fd1441fa22f8940a2f54ecf840a6"
+}
