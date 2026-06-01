@@ -1,27 +1,31 @@
 {
-    "Name": "Brennan2019: EEG during Alice in Wonderland Listening",
-    "BIDSVersion": "1.9.0",
-    "DatasetType": "raw",
-    "License": "CC BY 4.0",
-    "Authors": [
-        "Jonathan R. Brennan",
-        "John T. Hale"
-    ],
-    "HowToAcknowledge": "Please cite: Brennan, J.R. & Hale, J.T. (2019). Hierarchical structure guides rapid linguistic predictions during naturalistic listening. PLoS ONE, 14(1), e0207741.",
-    "ReferencesAndLinks": [
-        "https://doi.org/10.1371/journal.pone.0207741",
-        "https://deepblue.lib.umich.edu/data/concern/data_sets/bg257f92t"
-    ],
-    "DatasetDOI": "doi:10.1371/journal.pone.0207741",
-    "GeneratedBy": [
-        {
-            "Name": "convert_brennan2019.py (EEGDash)",
-            "CodeURL": "https://github.com/bruaristimunha/EEGDash"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "URL": "https://deepblue.lib.umich.edu/data/concern/data_sets/bg257f92t"
-        }
-    ]
+  "Name": "Brennan2019: EEG during Alice in Wonderland Listening",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Jonathan R. Brennan",
+    "John T. Hale"
+  ],
+  "HowToAcknowledge": "Please cite: Brennan, J.R. & Hale, J.T. (2019). Hierarchical structure guides rapid linguistic predictions during naturalistic listening. PLoS ONE, 14(1), e0207741.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1371/journal.pone.0207741",
+    "https://deepblue.lib.umich.edu/data/concern/data_sets/bg257f92t"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000180",
+  "GeneratedBy": [
+    {
+      "Name": "convert_brennan2019.py (EEGDash)",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://deepblue.lib.umich.edu/data/concern/data_sets/bg257f92t"
+    },
+    {
+      "DOI": "doi:10.1371/journal.pone.0207741"
+    }
+  ],
+  "Version": "1.0.0"
 }
