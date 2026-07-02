@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Brennan2019: EEG during Naturalistic Listening to Alice in Wonderland",
   "description": "This dataset comprises scalp EEG recordings from 45 participants during passive listening to a naturalistic audiobook excerpt (first chapter of Alice's Adventures in Wonderland, ~12.4 minutes). The study investigates how the brain constructs hierarchical syntactic structure and generates rapid linguistic predictions during continuous speech comprehension. Each recording is aligned with word-by-word linguistic annotations including lexical frequency, acoustic features, and computational surprisal measures from n-gram, recurrent neural network, and context-free grammar models.",
-  "methods_description": "EEG was recorded using a 61-channel BrainVision actiCHamp amplifier with an equidistant montage (easyCAP M10), yielding 60 scalp channels plus 1 bipolar vertical EOG and 1 audio channel. Sampling rate was 500 Hz with online filtering (0.01–200 Hz). Participants listened to the audiobook stimulus presented via insert earphones (Etymotic ER-2) at 45 dB above individual hearing threshold. Data were collected between March 2015 and December 2016 at the University of Michigan Computational Neurolinguistics Lab.",
+  "methods_description": "EEG was recorded using a 61-channel BrainVision actiCHamp amplifier with an easyCAP M10 equidistant montage (60 scalp channels, 1 bipolar vertical EOG, 1 audio channel) at 500 Hz sampling rate with online filtering (0.01–200 Hz). Participants listened to continuous naturalistic speech presented via insert earphones (Etymotic ER-2) at 45 dB above individual hearing threshold. Data were collected between March 2015 and December 2016 at the University of Michigan Computational Neurolinguistics Lab.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -100,5 +100,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "4118da09747aae6d9f2c277aa802799b70a483ca9a590538f99c06cdb2707434"
+  "source_hash": "c1570afd6f8300f97a022af1a64a4ea2cb0d711a2883f102d3f3fe40f4e61b4f"
 }
