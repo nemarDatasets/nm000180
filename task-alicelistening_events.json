@@ -1,0 +1,63 @@
+{
+    "onset": {
+        "Description": "Onset of the spoken word in the continuous EEG recording",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Spoken duration of the word",
+        "Units": "s"
+    },
+    "trial_type": {
+        "Description": "Event category",
+        "Levels": {
+            "word": "A spoken word in the audiobook"
+        }
+    },
+    "word": {
+        "Description": "Orthographic form of the spoken word"
+    },
+    "word_index": {
+        "Description": "Order of the word in the story (Brennan 'Order'; 1-2150, 2129 annotated)"
+    },
+    "sentence_id": {
+        "Description": "Sentence number the word belongs to"
+    },
+    "position_in_sentence": {
+        "Description": "Ordinal position of the word within its sentence"
+    },
+    "segment": {
+        "Description": "Audio segment (1-12) in which the word occurs"
+    },
+    "is_lexical": {
+        "Description": "Open-class/content word (1) vs closed-class/function word (0)",
+        "Levels": {
+            "1": "content/open-class",
+            "0": "function/closed-class"
+        }
+    },
+    "log_freq": {
+        "Description": "Log lexical frequency of the word"
+    },
+    "log_freq_prev": {
+        "Description": "Log lexical frequency of the preceding word"
+    },
+    "log_freq_next": {
+        "Description": "Log lexical frequency of the following word"
+    },
+    "word_length": {
+        "Description": "Spoken duration of the word in the audio",
+        "Units": "s"
+    },
+    "sound_power": {
+        "Description": "Acoustic sound power at word onset"
+    },
+    "ngram_surprisal": {
+        "Description": "Word surprisal from a 3-gram (Markov) language model"
+    },
+    "rnn_surprisal": {
+        "Description": "Word surprisal from a recurrent neural-network language model"
+    },
+    "cfg_surprisal": {
+        "Description": "Word surprisal from a context-free-grammar (hierarchical) parser"
+    }
+}
