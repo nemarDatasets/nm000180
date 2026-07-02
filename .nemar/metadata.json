@@ -1,10 +1,10 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Brennan2019: EEG during Alice in Wonderland Listening",
-  "description": "This dataset comprises EEG recordings from 33 subjects during passive listening to the first chapter of 'Alice's Adventures in Wonderland,' a naturalistic auditory comprehension paradigm designed to investigate hierarchical linguistic structure processing. The study recorded 61 EEG channels plus vertical eye movements at 500 Hz sampling rate, capturing neural responses to continuous speech over approximately 25 minutes per subject. This resource enables investigation of how the brain processes complex linguistic hierarchies during naturalistic listening conditions.",
-  "methods_description": "EEG was recorded from 33 subjects using a 61-channel easycap-M10 montage plus 1 VEOG and 1 audio channel at 500 Hz sampling rate. Online bandpass filtering was applied at 0.1-200 Hz, with offline average reference applied. Subjects passively listened to the complete first chapter of 'Alice's Adventures in Wonderland' (~25 minutes).",
-  "license": "CC BY 4.0",
+  "title": "Brennan2019: EEG during Naturalistic Listening to Alice in Wonderland",
+  "description": "This dataset comprises scalp EEG recordings from 45 participants during passive listening to a naturalistic audiobook excerpt (first chapter of Alice's Adventures in Wonderland, ~12.4 minutes). The study investigates how the brain constructs hierarchical syntactic structure and generates rapid linguistic predictions during continuous speech comprehension. Each recording is aligned with word-by-word linguistic annotations including lexical frequency, acoustic features, and computational surprisal measures from n-gram, recurrent neural network, and context-free grammar models.",
+  "methods_description": "EEG was recorded using a 61-channel BrainVision actiCHamp amplifier with an equidistant montage (easyCAP M10), yielding 60 scalp channels plus 1 bipolar vertical EOG and 1 audio channel. Sampling rate was 500 Hz with online filtering (0.01–200 Hz). Participants listened to the audiobook stimulus presented via insert earphones (Etymotic ER-2) at 45 dB above individual hearing threshold. Data were collected between March 2015 and December 2016 at the University of Michigan Computational Neurolinguistics Lab.",
+  "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
     "Jonathan R. Brennan": {
@@ -20,28 +20,24 @@
       "term": "naturalistic listening"
     },
     {
-      "term": "linguistic processing"
+      "term": "language comprehension"
     },
     {
-      "term": "hierarchical structure"
+      "term": "syntactic structure"
     },
     {
-      "term": "auditory comprehension"
+      "term": "linguistic prediction"
     },
     {
-      "term": "Speech Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013067"
+      "term": "surprisal"
+    },
+    {
+      "term": "auditory processing"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/nm000180",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000180",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -59,6 +55,26 @@
       "identifier": "10.1371/journal.pone.0207741",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7302/746w-g237",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7302/Z29C6VNH",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1098/rstb.2019.0305",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000180",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -70,14 +86,19 @@
     "4.1 GB (91 files)"
   ],
   "formats": [
+    ".csv",
+    ".doc",
     ".eeg",
     ".json",
+    ".mat",
     ".md",
     ".py",
+    ".sfp",
     ".tsv",
+    ".txt",
     ".vhdr",
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "e4e5ebde4cd7429060407d93ccf1c93adadf5e5dffa255f4cccf57d2d49ed43c"
+  "source_hash": "4118da09747aae6d9f2c277aa802799b70a483ca9a590538f99c06cdb2707434"
 }
