@@ -1,16 +1,25 @@
 {
-  "Name": "Brennan2019: EEG during Alice in Wonderland Listening",
+  "Name": "Brennan2019: EEG during Naturalistic Listening to Alice in Wonderland",
   "BIDSVersion": "1.9.0",
   "DatasetType": "raw",
-  "License": "CC BY 4.0",
+  "License": "CC-BY-4.0",
   "Authors": [
     "Jonathan R. Brennan",
     "John T. Hale"
   ],
-  "HowToAcknowledge": "Please cite: Brennan, J.R. & Hale, J.T. (2019). Hierarchical structure guides rapid linguistic predictions during naturalistic listening. PLoS ONE, 14(1), e0207741.",
+  "Acknowledgements": "EEG data were collected between March 2015 and December 2016 at the Computational Neurolinguistics Lab (CNL Lab), Department of Linguistics, University of Michigan, Ann Arbor. Per-word linguistic annotations (lexical frequency, sound power, word length, and hierarchical n-gram / RNN / CFG surprisal predictors) and per-subject preprocessing outputs are re-hosted from the Deep Blue Data record (v2, DOI 10.7302/746w-g237) and the cnllab/alice-eeg-shared repository.",
+  "HowToAcknowledge": "Please cite: Brennan, J. R., & Hale, J. T. (2019). Hierarchical structure guides rapid linguistic predictions during naturalistic listening. PLoS ONE, 14(1), e0207741. https://doi.org/10.1371/journal.pone.0207741 ; and the source data record: Brennan, J. R. (2023). EEG Datasets for Naturalistic Listening to 'Alice in Wonderland' (v2). University of Michigan - Deep Blue Data. https://doi.org/10.7302/746w-g237",
+  "Funding": [],
+  "EthicsApprovals": [
+    "University of Michigan Institutional Review Board (Health Sciences and Behavioral Sciences)"
+  ],
   "ReferencesAndLinks": [
     "https://doi.org/10.1371/journal.pone.0207741",
-    "https://deepblue.lib.umich.edu/data/concern/data_sets/bg257f92t"
+    "https://doi.org/10.7302/746w-g237",
+    "https://doi.org/10.7302/Z29C6VNH",
+    "https://aclanthology.org/2020.lrec-1.15/",
+    "https://doi.org/10.1098/rstb.2019.0305",
+    "https://github.com/cnllab/alice-eeg-shared"
   ],
   "DatasetDOI": "10.82901/nemar.nm000180",
   "GeneratedBy": [
@@ -21,11 +30,18 @@
   ],
   "SourceDatasets": [
     {
-      "URL": "https://deepblue.lib.umich.edu/data/concern/data_sets/bg257f92t"
+      "URL": "https://deepblue.lib.umich.edu/data/concern/data_sets/bn999738r",
+      "DOI": "10.7302/746w-g237",
+      "Version": "v2 (2023)"
     },
     {
-      "DOI": "doi:10.1371/journal.pone.0207741"
+      "URL": "https://deepblue.lib.umich.edu/data/concern/generic_works/bg257f92t",
+      "DOI": "10.7302/Z29C6VNH",
+      "Version": "v1 (2018)"
+    },
+    {
+      "DOI": "10.1371/journal.pone.0207741"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.1.0"
 }
