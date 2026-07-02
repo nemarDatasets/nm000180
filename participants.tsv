@@ -1,46 +1,46 @@
-﻿participant_id	age	sex	hand	weight	height
-sub-001	n/a	n/a	n/a	n/a	n/a
-sub-002	n/a	n/a	n/a	n/a	n/a
-sub-003	n/a	n/a	n/a	n/a	n/a
-sub-005	n/a	n/a	n/a	n/a	n/a
-sub-006	n/a	n/a	n/a	n/a	n/a
-sub-007	n/a	n/a	n/a	n/a	n/a
-sub-008	n/a	n/a	n/a	n/a	n/a
-sub-009	n/a	n/a	n/a	n/a	n/a
-sub-010	n/a	n/a	n/a	n/a	n/a
-sub-011	n/a	n/a	n/a	n/a	n/a
-sub-012	n/a	n/a	n/a	n/a	n/a
-sub-013	n/a	n/a	n/a	n/a	n/a
-sub-014	n/a	n/a	n/a	n/a	n/a
-sub-015	n/a	n/a	n/a	n/a	n/a
-sub-017	n/a	n/a	n/a	n/a	n/a
-sub-018	n/a	n/a	n/a	n/a	n/a
-sub-019	n/a	n/a	n/a	n/a	n/a
-sub-020	n/a	n/a	n/a	n/a	n/a
-sub-021	n/a	n/a	n/a	n/a	n/a
-sub-022	n/a	n/a	n/a	n/a	n/a
-sub-023	n/a	n/a	n/a	n/a	n/a
-sub-025	n/a	n/a	n/a	n/a	n/a
-sub-026	n/a	n/a	n/a	n/a	n/a
-sub-027	n/a	n/a	n/a	n/a	n/a
-sub-028	n/a	n/a	n/a	n/a	n/a
-sub-029	n/a	n/a	n/a	n/a	n/a
-sub-030	n/a	n/a	n/a	n/a	n/a
-sub-031	n/a	n/a	n/a	n/a	n/a
-sub-032	n/a	n/a	n/a	n/a	n/a
-sub-033	n/a	n/a	n/a	n/a	n/a
-sub-034	n/a	n/a	n/a	n/a	n/a
-sub-035	n/a	n/a	n/a	n/a	n/a
-sub-036	n/a	n/a	n/a	n/a	n/a
-sub-037	n/a	n/a	n/a	n/a	n/a
-sub-038	n/a	n/a	n/a	n/a	n/a
-sub-039	n/a	n/a	n/a	n/a	n/a
-sub-040	n/a	n/a	n/a	n/a	n/a
-sub-041	n/a	n/a	n/a	n/a	n/a
-sub-042	n/a	n/a	n/a	n/a	n/a
-sub-043	n/a	n/a	n/a	n/a	n/a
-sub-044	n/a	n/a	n/a	n/a	n/a
-sub-045	n/a	n/a	n/a	n/a	n/a
-sub-046	n/a	n/a	n/a	n/a	n/a
-sub-047	n/a	n/a	n/a	n/a	n/a
-sub-048	n/a	n/a	n/a	n/a	n/a
+participant_id	age	sex	hand	weight	height	comprehension_n_correct	comprehension_n_total	comprehension_score	analyzed	exclusion_reason
+sub-001	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-002	n/a	n/a	n/a	n/a	n/a	6	8	0.75	no	high_noise
+sub-003	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-005	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a
+sub-006	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
+sub-007	n/a	n/a	n/a	n/a	n/a	4	8	0.5	no	low_comprehension
+sub-008	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-009	n/a	n/a	n/a	n/a	n/a	2	8	0.25	no	low_comprehension
+sub-010	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
+sub-011	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-012	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-013	n/a	n/a	n/a	n/a	n/a	8	8	1.0	yes	n/a
+sub-014	n/a	n/a	n/a	n/a	n/a	4	4	1.0	yes	n/a
+sub-015	n/a	n/a	n/a	n/a	n/a	4	4	1.0	yes	n/a
+sub-017	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-018	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a
+sub-019	n/a	n/a	n/a	n/a	n/a	8	8	1.0	yes	n/a
+sub-020	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
+sub-021	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	yes	n/a
+sub-022	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-023	n/a	n/a	n/a	n/a	n/a	3	8	0.375	no	low_comprehension
+sub-025	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
+sub-026	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-027	n/a	n/a	n/a	n/a	n/a	4	8	0.5	no	low_comprehension
+sub-028	n/a	n/a	n/a	n/a	n/a	7	8	0.875	no	high_noise
+sub-029	n/a	n/a	n/a	n/a	n/a	6	8	0.75	no	high_noise
+sub-030	n/a	n/a	n/a	n/a	n/a	4	8	0.5	no	low_comprehension
+sub-031	n/a	n/a	n/a	n/a	n/a	3	4	0.75	no	high_noise
+sub-032	n/a	n/a	n/a	n/a	n/a	4	8	0.5	no	low_comprehension
+sub-033	n/a	n/a	n/a	n/a	n/a	8	8	1.0	no	high_noise
+sub-034	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
+sub-035	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
+sub-036	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-037	n/a	n/a	n/a	n/a	n/a	8	8	1.0	yes	n/a
+sub-038	n/a	n/a	n/a	n/a	n/a	8	8	1.0	yes	n/a
+sub-039	n/a	n/a	n/a	n/a	n/a	3	8	0.375	yes	n/a
+sub-040	n/a	n/a	n/a	n/a	n/a	6	8	0.75	yes	n/a
+sub-041	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a
+sub-042	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a
+sub-043	n/a	n/a	n/a	n/a	n/a	2	8	0.25	no	low_comprehension
+sub-044	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a
+sub-045	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
+sub-046	n/a	n/a	n/a	n/a	n/a	3	8	0.375	no	high_noise
+sub-047	n/a	n/a	n/a	n/a	n/a	4	8	0.5	no	high_noise
+sub-048	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a

@@ -28,5 +28,30 @@
     "height": {
         "Description": "Body height of the participant",
         "Units": "m"
+    },
+    "comprehension_n_correct": {
+        "Description": "Number of post-listening comprehension questions answered correctly"
+    },
+    "comprehension_n_total": {
+        "Description": "Total number of comprehension questions administered (8 for most subjects; 4 for an early subset)"
+    },
+    "comprehension_score": {
+        "Description": "Proportion of comprehension questions answered correctly (comprehension_n_correct / comprehension_n_total)"
+    },
+    "analyzed": {
+        "Description": "Whether the subject is part of the 'use' set analyzed in Brennan & Hale (2019) after quality control",
+        "Levels": {
+            "yes": "included in the analyzed sample",
+            "no": "recorded but excluded from analysis"
+        }
+    },
+    "exclusion_reason": {
+        "Description": "Reason the subject was excluded from the analyzed sample (n/a if analyzed)",
+        "Levels": {
+            "n/a": "included",
+            "low_comprehension": "excluded for low comprehension score",
+            "high_noise": "excluded for noisy EEG",
+            "low_comprehension_and_high_noise": "excluded for both low comprehension and noisy EEG"
+        }
     }
 }
