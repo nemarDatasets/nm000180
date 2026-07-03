@@ -26,8 +26,11 @@ Task
   sent at the onset of each segment. (Note: segment triggers are absent from the
   re-hosted continuous `.vmrk`; word onsets in `events.tsv` are reconstructed
   from the original per-subject preprocessing output — see *Events*.)
+- The audiobook segments are provided in **`stimuli/`**
+  (`DownTheRabbitHoleFinal_SoundFile1–12.wav`, 16-bit mono 44.1 kHz), and each word
+  event references its segment via the `stim_file` column of `events.tsv`.
 - After listening, participants answered 8 multiple-choice comprehension
-  questions (see `sourcedata/`).
+  questions (see `sourcedata/`; per-subject scores are in `participants.tsv`).
 
 Recording Setup
 ---------------

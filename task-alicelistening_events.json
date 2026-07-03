@@ -16,6 +16,9 @@
     "word": {
         "Description": "Orthographic form of the spoken word"
     },
+    "stim_file": {
+        "Description": "Audiobook segment (in /stimuli/) during which the word was heard"
+    },
     "word_index": {
         "Description": "Order of the word in the story (Brennan 'Order'; 1-2150, 2129 annotated)"
     },
