@@ -47,12 +47,8 @@
     "log_freq_next": {
         "Description": "Log lexical frequency of the following word"
     },
-    "word_length": {
-        "Description": "Spoken duration of the word in the audio",
-        "Units": "s"
-    },
     "sound_power": {
-        "Description": "Acoustic sound power at word onset"
+        "Description": "Acoustic sound power (RMS) at word onset"
     },
     "ngram_surprisal": {
         "Description": "Word surprisal from a 3-gram (Markov) language model"
