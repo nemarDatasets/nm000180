@@ -29,8 +29,10 @@ Task
 - The audiobook segments are provided in **`stimuli/`**
   (`DownTheRabbitHoleFinal_SoundFile1–12.wav`, 16-bit mono 44.1 kHz), and each word
   event references its segment via the `stim_file` column of `events.tsv`.
-- After listening, participants answered 8 multiple-choice comprehension
-  questions (see `sourcedata/`; per-subject scores are in `participants.tsv`).
+- After listening, participants answered multiple-choice comprehension
+  questions (8 for most subjects; 4 for an early subset — see the
+  `comprehension_n_total` column). Per-subject scores are in `participants.tsv`
+  (`sourcedata/comprehension-scores.txt`).
 
 Recording Setup
 ---------------
@@ -58,14 +60,13 @@ in Brennan & Hale (2019):
 | `onset`, `duration` | Word onset/duration in the EEG recording (seconds) |
 | `trial_type` | `word` |
 | `word` | The spoken word (orthographic form) |
-| `word_index` | Position of the word in the story (1–2129) |
+| `word_index` | Order of the word in the story (Brennan `Order`; 1–2150, 2129 annotated with 21 gaps) |
 | `sentence_id` | Sentence number the word belongs to |
 | `position_in_sentence` | Ordinal position of the word within its sentence |
 | `segment` | Audio segment (1–12) the word occurs in |
 | `is_lexical` | 1 = open-class/content word, 0 = closed-class/function word |
 | `log_freq` | Log lexical frequency of the word |
 | `log_freq_prev`, `log_freq_next` | Log frequency of the preceding / following word |
-| `word_length` | Word duration in the audio (seconds) |
 | `sound_power` | Acoustic sound power at word onset |
 | `ngram_surprisal` | Surprisal from a 3-gram language model (`NGRAM`) |
 | `rnn_surprisal` | Surprisal from a recurrent neural-network language model (`RNN`) |

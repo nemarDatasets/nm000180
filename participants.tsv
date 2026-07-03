@@ -41,6 +41,6 @@ sub-042	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a
 sub-043	n/a	n/a	n/a	n/a	n/a	2	8	0.25	no	low_comprehension
 sub-044	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a
 sub-045	n/a	n/a	n/a	n/a	n/a	5	8	0.625	yes	n/a
-sub-046	n/a	n/a	n/a	n/a	n/a	3	8	0.375	no	high_noise
-sub-047	n/a	n/a	n/a	n/a	n/a	4	8	0.5	no	high_noise
+sub-046	n/a	n/a	n/a	n/a	n/a	3	8	0.375	no	low_comprehension_and_high_noise
+sub-047	n/a	n/a	n/a	n/a	n/a	4	8	0.5	no	low_comprehension_and_high_noise
 sub-048	n/a	n/a	n/a	n/a	n/a	7	8	0.875	yes	n/a

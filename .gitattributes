@@ -1,3 +1,10 @@
+# Keep all human-readable metadata in git proper (never git-annex) — an annex'd
+# README/dataset_description is the known root cause of NEMAR "empty README" denials.
+README.md annex.largefiles=nothing
+CHANGES annex.largefiles=nothing
+dataset_description.json annex.largefiles=nothing
+*.tsv annex.largefiles=nothing
+*.json annex.largefiles=nothing
+*.md annex.largefiles=nothing
 sourcedata/** annex.largefiles=nothing
 stimuli/** annex.largefiles=nothing
-**/*_events.tsv annex.largefiles=nothing
