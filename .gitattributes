@@ -1,2 +1,3 @@
 sourcedata/** annex.largefiles=nothing
+stimuli/** annex.largefiles=nothing
 **/*_events.tsv annex.largefiles=nothing
