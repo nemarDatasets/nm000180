@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Brennan2019: EEG during Naturalistic Listening to Alice in Wonderland",
-  "description": "This dataset comprises scalp EEG recordings from 45 participants during passive listening to a naturalistic audiobook excerpt (first chapter of Alice's Adventures in Wonderland, ~12.4 minutes). The study investigates how the brain constructs hierarchical syntactic structure and generates rapid linguistic predictions during continuous speech comprehension. Each word event is annotated with linguistic predictors including lexical frequency, acoustic features, and surprisal estimates from n-gram, recurrent neural network, and context-free grammar models.",
+  "description": "This dataset comprises scalp EEG recordings from 45 participants during passive listening to a naturalistic 12.4-minute audiobook excerpt (first chapter of Alice's Adventures in Wonderland). The study investigates how the brain constructs hierarchical syntactic structure and generates rapid linguistic predictions during continuous speech comprehension. Each word event is annotated with linguistic predictors including lexical frequency, acoustic properties, and surprisal estimates from n-gram, recurrent neural network, and context-free grammar models.",
   "methods_description": "EEG was recorded using a 61-channel BrainVision actiCHamp amplifier with an equidistant montage (easyCAP M10), yielding 60 scalp channels plus 1 bipolar vertical EOG and 1 audio channel. Sampling rate was 500 Hz with online filtering (0.01–200 Hz). Participants listened to audiobook segments presented via insert earphones (Etymotic ER-2) at 45 dB above individual hearing threshold. Data were collected between March 2015 and December 2016 at the University of Michigan Computational Neurolinguistics Lab.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
@@ -101,5 +101,5 @@
     ".wav",
     ".yml"
   ],
-  "source_hash": "d93f2b5973dffd52da9b2beb0e3adbcb0b949de49282589c20d6a212a58844ce"
+  "source_hash": "0646520eb4dd86bc0214f855ac22d00ee8113dcfa6b552433789042bf43e4e37"
 }
